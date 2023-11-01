@@ -3,7 +3,7 @@
 % Date: 10/10/2021
 % Control LPV-MPC
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-function [ controller ] = LPV_MPC_fnc( Hp, SchedVars_Limits, nx, nu, q1, q2, q3, q4, q5, r1, r2 )
+function [ controller ] = LPV_MPC_func( Hp, SchedVars_Limits, nx, nu, q1, q2, q3, q4, q5, r1, r2 )
 % function [ controller ] = LPV_MPC_fnc( Hp, SchedVars_Limits, nx, nu )
 x       = sdpvar(nx,1,Hp+1,'full');    % [vx, vy, w, ey, etheta]
 u       = sdpvar(nu,1,Hp,'full');      % [delta, acceleration]
