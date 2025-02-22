@@ -32,9 +32,10 @@ To run the Python code and build a neural network and train it you need to insta
    3. You build different networks by changing the structure (depth/width) of the neural network and modifying the hyperparameters: learning rate, batch size, epoch..etc.
 
 ## If you find this work useful or use it in your work please cite the main paper:
-
+#### APA:
 Kebbati, Y., Ait-Oufroukh, N., Puig, V., Ichalal, D., & Vigneron, V. (2022, December). Autonomous driving using GA-optimized neural network based adaptive LPV-MPC controller. In 2022 ieee international conference on networking, sensing and control (icnsc) (pp. 1-6). IEEE.
 
+#### BibTeX:
 @inproceedings{kebbati2022autonomous,
   title={Autonomous driving using GA-optimized neural network based adaptive LPV-MPC controller},
   author={Kebbati, Yassine and Ait-Oufroukh, Naima and Puig, Vicenc and Ichalal, Dalil and Vigneron, Vincent},
